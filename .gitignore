@@ -1,0 +1,24 @@
+# --- .NET & IDE ---
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code / Rider
+.vscode/
+.idea/
+
+# Build / cache
+*.cache/
+*.log/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local secrets (if you add later)
+appsettings.*.local.json
+*.secret.json

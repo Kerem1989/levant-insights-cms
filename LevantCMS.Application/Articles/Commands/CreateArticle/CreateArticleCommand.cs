@@ -2,7 +2,7 @@
 using LevantCMS.Domain.Entities;
 
 
-namespace LevantCMS.Application.Article.Commands.CreateArticle
+namespace LevantCMS.Application.Articles.Commands.CreateArticle
 {
     public sealed class CreateArticleCommandHandler
     {

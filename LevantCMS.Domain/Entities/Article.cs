@@ -1,5 +1,6 @@
 namespace LevantCMS.Domain.Entities;
-    public class Article
+
+public class Article
 {
     public Guid Id { get; set; }
 

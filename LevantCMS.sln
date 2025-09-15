@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevantCMS.Domain", "LevantC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevantCMS.Application", "LevantCMS.Application\LevantCMS.Application.csproj", "{EBAA7860-53CF-4494-98B2-540BCD258A73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevantCMS.Infrastructure", "LevantCMS.Infrastructure\LevantCMS.Infrastructure.csproj", "{840E6D38-F5E7-44FA-91BE-A719840427B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevantCMS.ConsoleTest", "LevantCMS.ConsoleTest\LevantCMS.ConsoleTest.csproj", "{348BE036-191F-4E6B-9DDB-4576F59A24BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,30 @@ Global
 		{EBAA7860-53CF-4494-98B2-540BCD258A73}.Release|x64.Build.0 = Release|Any CPU
 		{EBAA7860-53CF-4494-98B2-540BCD258A73}.Release|x86.ActiveCfg = Release|Any CPU
 		{EBAA7860-53CF-4494-98B2-540BCD258A73}.Release|x86.Build.0 = Release|Any CPU
+		{840E6D38-F5E7-44FA-91BE-A719840427B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840E6D38-F5E7-44FA-91BE-A719840427B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840E6D38-F5E7-44FA-91BE-A719840427B9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{840E6D38-F5E7-44FA-91BE-A719840427B9}.Debug|x64.Build.0 = Debug|Any CPU
+		{840E6D38-F5E7-44FA-91BE-A719840427B9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{840E6D38-F5E7-44FA-91BE-A719840427B9}.Debug|x86.Build.0 = Debug|Any CPU
+		{840E6D38-F5E7-44FA-91BE-A719840427B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840E6D38-F5E7-44FA-91BE-A719840427B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{840E6D38-F5E7-44FA-91BE-A719840427B9}.Release|x64.ActiveCfg = Release|Any CPU
+		{840E6D38-F5E7-44FA-91BE-A719840427B9}.Release|x64.Build.0 = Release|Any CPU
+		{840E6D38-F5E7-44FA-91BE-A719840427B9}.Release|x86.ActiveCfg = Release|Any CPU
+		{840E6D38-F5E7-44FA-91BE-A719840427B9}.Release|x86.Build.0 = Release|Any CPU
+		{348BE036-191F-4E6B-9DDB-4576F59A24BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348BE036-191F-4E6B-9DDB-4576F59A24BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348BE036-191F-4E6B-9DDB-4576F59A24BB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{348BE036-191F-4E6B-9DDB-4576F59A24BB}.Debug|x64.Build.0 = Debug|Any CPU
+		{348BE036-191F-4E6B-9DDB-4576F59A24BB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{348BE036-191F-4E6B-9DDB-4576F59A24BB}.Debug|x86.Build.0 = Debug|Any CPU
+		{348BE036-191F-4E6B-9DDB-4576F59A24BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348BE036-191F-4E6B-9DDB-4576F59A24BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348BE036-191F-4E6B-9DDB-4576F59A24BB}.Release|x64.ActiveCfg = Release|Any CPU
+		{348BE036-191F-4E6B-9DDB-4576F59A24BB}.Release|x64.Build.0 = Release|Any CPU
+		{348BE036-191F-4E6B-9DDB-4576F59A24BB}.Release|x86.ActiveCfg = Release|Any CPU
+		{348BE036-191F-4E6B-9DDB-4576F59A24BB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

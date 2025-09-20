@@ -3,19 +3,17 @@ using LevantCMS.Application.Articles.Commands.CreateArticle;
 using LevantCMS.Infrastructure.Repositories;
 using LevantCMS.Domain.Entities;
 
-// Setup repository + handler
-var repo = new InMemoryArticleRepository();
-var handler = new CreateArticleCommandHandler(repo);
+using LevantCMS.Application.Articles.Commands.CreateArticle;
+using Infrastructure.Repositories;
 
-// Create a new article
-var command = new CreateArticleCommand("My First Article");
+// create repo + handler
+var articleRepo = new InMemoryArticleRepository();
+var tagRepo = new InMemoryTagRepository(); 
+var handler = new CreateArticleCommandHandler(articleRepo, tagRepo); 
+
+
+// create command with TagIds
+var command = new CreateArticleCommand("Test Article with Tags", new List<string> {"politics", "economy"});
+
+// run handler
 await handler.Handle(command, CancellationToken.None);
-
-// Fetch all articles
-var allArticles = await repo.GetAllAsync();
-
-Console.WriteLine("Articles in repository:");
-foreach (var article in allArticles)
-{
-    Console.WriteLine($"- {article.Id}: {article.Title}");
-}

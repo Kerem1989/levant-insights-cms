@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace LevantCMS.Application.Articles.Commands.CreateArticle
+{
+    using System.Collections.Generic;
 
-namespace LevantCMS.Application.Articles.Commands.CreateArticle;
-
-public sealed record CreateArticleCommand(string Title);
+    public sealed record CreateArticleCommand(string Title, List<string>? Tags = null);
+}
